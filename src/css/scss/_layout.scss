@@ -49,6 +49,10 @@ body {
   }
 }
 
+.main-header--product {
+  padding: 10px 30px 20px;
+}
+
 .main-header__container {
   padding: 0;
 }
@@ -63,6 +67,22 @@ body {
   width: 35px;
 }
 
+.main-header__product {
+  text-align: center;
+}
+
+.main-header__product-title {
+  padding: 10px 0 8px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-header__product-subheading {
+  font-size: 18px;
+  font-style: italic;
+  color: $sl-copy-light;
+}
+
 .content-wrapper {
   padding: 30px;
 }
@@ -72,9 +92,25 @@ body {
   border-top: 1px solid $sl-border;
 }
 
+.content-footer--face {
+  padding: 10px 20px;
+  vertical-align: middle;
+}
+
 .content-footer__logo {
   display: block;
   margin: 0 auto;
+}
+
+.content-footer__face {
+  width: 94px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.content-footer__contact {
+  line-height: 1.4;
+  vertical-align: middle;
 }
 
 // Adds padding to content - use this instead of paragraphs for consistent padding/margin rendering
@@ -82,13 +118,19 @@ body {
   padding: 0 0 25px;
 }
 
+.content-title {
+  padding: 0 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .footer {
   width: 100%;
   padding: 20px 30px;
   clear: both;
+  color: $sl-copy;
 
   * {
     font-size: 11px;
-    color: $sl-copy;
   }
 }

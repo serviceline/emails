@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{ subject }}</title>
+<link href="../src/css/main.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<table class="body">
+  <tr>
+  <td></td>
+  <td class="container">
+    <div class="content">
+      <span class="preheader">{{subject}}</span>
+      <div class="main">
+        <table>
+          <tr>
+            <td class="main-header__container">
+              <div class="main-header">
+                <table>
+                  <tr>
+                    <td class="main-header__title">
+                      {{title}}
+                    </td>
+                    <td class="main-header__logo">
+                      <a href="http://www.servicelinetech.com"><img src="../src/img/sl-logo-top.png" height="35" width="35" alt="ServiceLine"></a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="content-wrapper">
+              {{ body }}
+            </td>
+          </tr>
+          <tr>
+            <td class="content-footer">
+              <img src="../src/img/sl-logo-bottom.png" height="35" width="133" alt="ServiceLine" class="content-footer__logo">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer">
+        <table>
+          <tr>
+            <td class="align-center">
+              &copy; ServiceLine all rights reserved.
+              ServiceLine is a privately held company incorporated in Rockwall, Texas. 2255 Ridge Rd, Ste 202, Rockwall, TX 75093
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </td>
+  <td></td>
+  </tr>
+</table>
+
+</body>
+</html>

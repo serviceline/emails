@@ -1,14 +1,21 @@
-/* -------------------------------------
-    CONFIGURE YOUR VARIABLES
-------------------------------------- */
+// -------------------------------------
+//   CONFIGURE YOUR VARIABLES
+// -------------------------------------
+
+// SL Colors
+$sl-copy: #677884;
+$sl-blue: #2199e8;
+$sl-border: #c4d6df;
 
 $padding: 30px; // For consistent padding
 $grey: #f6f6f6; // Background color
-$width: 580px; // Width of the content area
+$width: 600px; // Width of the content area
 $br: 3px; // Border radius
 $btn-br: 5px; // Border radius
-$primary-color: #348eda; // Primary color for buttons and links
-$font-color: #111111; // Default font color
+$primary-color: $sl-blue; // Primary color for buttons and links
+$font-color: #677884; // Default font color
+$bg-color: #eef1f3;
+$bg-content: #fff;
 
 // Typography
 // -------
@@ -16,8 +23,8 @@ $font-color: #111111; // Default font color
 $body-font-family:          "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
 $body-font-weight:          400 !default;
 $body-font-size:            14px !default;
-$body-font-color:           #555 !default;
-$body-line-height:          1.6 !default;
+$body-font-color:           #677884 !default;
+$body-line-height:          1.57 !default;
 
 // Notices
 // -------
@@ -37,5 +44,5 @@ $notice-margin:             10px 0 !default;
 // Dividers
 // --------
 
-$divider-margin:			20px 0 !default;
-$divider-color:				#ccc !default;
+$divider-margin:            20px 0 !default;
+$divider-color:             #bdd1db !default;

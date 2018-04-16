@@ -65,26 +65,25 @@ body {
 
 .main-header__logo {
   width: 35px;
-}
-
-.main-header__product {
-  text-align: center;
+  vertical-align: top;
 }
 
 .main-header__product-title {
-  padding: 10px 0 8px;
+  padding: 0 0 10px;
   font-size: 24px;
   font-weight: 700;
+  line-height: 30px;
 }
 
 .main-header__product-subheading {
   font-size: 18px;
   font-style: italic;
+  font-weight: 400;
   color: $sl-copy-light;
 }
 
 .content-wrapper {
-  padding: 30px;
+  padding: 30px 30px 10px;
 }
 
 .content-footer {
@@ -132,5 +131,6 @@ body {
 
   * {
     font-size: 11px;
+    line-height: 16px;
   }
 }
